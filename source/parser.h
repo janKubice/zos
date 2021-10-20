@@ -12,7 +12,8 @@
 #ifndef PARSER_H
 #define PARSER_H
 
-void split_command_line(char command[], char part_1[], char part_2[], char part_3[], char part_4[]);
+void split_command_line(char command[]);
+
 void evaluate_command(char part_1[], char part_2[], char part_3[], char part_4[]);
 
 #endif
